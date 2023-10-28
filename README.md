@@ -1,8 +1,7 @@
 # cadastroDeLivros
 
-## Diretrizes do trabalho
+**Diretrizes do trabalho**
 
-### Tópicos abordados
 Javascript
 
 Montagem de um controle de dados em JSON; Utilização do LocalStorage.
