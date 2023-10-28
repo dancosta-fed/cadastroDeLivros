@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Livros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>Cadastro de Livros</h1>
+
+    <div class="formulario">
+      <h2>Adicionar Livro</h2>
+      <form id="bookForm">
+        <div>          
+          <div class="inputsContainer">
+            <input type="text" id="title" placeholder="Título" required>
+            <input type="text" id="author" placeholder="Autor" required>
+            <input type="text" id="edition" placeholder="Edição" required>
+            <input type="text" id="year" placeholder="Ano" required>
+            <input type="text" id="pages" placeholder="Quantidade de páginas" required>
+            <input type="text" id="stored" placeholder="Local" required>
+          </div>
+          
+          <div class="filtroContainer">
+            <select class="addFiltro" id="addGenre">
+              <option value="">Gênero</option>
+              <option value="Romance">Romance</option>
+              <option value="Conto">Conto</option>
+              <option value="Comédia">Comédia</option>
+              <option value="Poema">Poema</option>
+              <option value="Drama">Drama</option>
+            </select>
+
+            <input type="text" id="image" placeholder="Link para a foto" required>
+          </div>
+        </div>
+        <button class="cadastrar" type="submit">Cadastrar Livro</button>
+      </form>
+    </div>
+
+    <div class="listagem">
+      <h2>Listagem de Livros</h2>
+      <div class="options">
+        <input class="searchBar" type="text" id="searchByName" placeholder="Buscar por Título">
+        <div class="filCheck">
+
+          <select class="filtro" id="filterGenre">
+            <option value="">Todos</option>
+            <option value="Romance">Romance</option>
+            <option value="Conto">Conto</option>
+            <option value="Comédia">Comédia</option>
+            <option value="Poema">Poema</option>
+            <option value="Drama">Drama</option>
+          </select>
+
+          <div class="checkBox">
+            <p class="showBorrowed" id="showBorrowed">Mostrar Emprestados</p>
+            <p class="deleteAll" id="deleteAll">Excluir Todos os Livros</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="booklist">
+        <p class="notFound"></p>
+        <ul id="bookList"></ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://github.com/dancosta-fed">Daniel Costa</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+/* Estilos simples, adaptáveis conforme a necessidade */
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+select {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input,
+button {
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0;
+}
+
+input {
+  background-color: #f2f2f2;
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  border: .6px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+button {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cadastrar {
+  background-color: #4CAF50;
+  width: 200px;
+}
+
+.cadastrar:hover {
+  background-color: #45a049;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.delete:hover {
+  background-color: #da190b;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: .6px solid #ccc;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.borrow-button {
+  background-color: #2a9df4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.listagem {
+  background-color: #ccccff;
+  margin: 30px;
+  padding: 40px;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.autor {
+  display: flex;
+  justify-content: space-between;
+  color: #c7c7c7;
+}
+
+.editGen {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.emprestado {
+  color: #FFA500;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filCheck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.showBorrowed {
+  color: #FFA500;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.showBorrowed:hover {
+  background-color: #FFA500;
+  color: #f2f2f2;
+}
+
+.deleteAll {
+  color: red;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.deleteAll:hover {
+  background-color: #da190b;
+  color: #f2f2f2;
+}
+
+.searchBar {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.notFound {
+  color: white;
+}
+
+.filtro {
+  height: 40px;
+  width: 150px;
+  margin: 5px;
+}
+
+.addFiltro {
+  background-color: #f2f2f2;
+}
+
+.filtroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.checkBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages {
+  font-size: 10px;
+  text-align: center;
+}
+
+.bookImage {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
